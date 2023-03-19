@@ -1,0 +1,28 @@
+{
+  "favourites": [
+    {
+      "name_with_namespace": "mahejabeen.u / auth",
+      "description": "",
+      "star_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "id": 1
+    },
+    {
+      "name_with_namespace": "wave-1 Session Demos / ComponentInteraction",
+      "description": "",
+      "star_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "id": 2
+    },
+    {
+      "name_with_namespace": "stack_java_keep_v2 / KeepNote-RDBMS-Assignment-boilerplate",
+      "description": "",
+      "star_count": 0,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "id": 3
+    }
+  ]
+}

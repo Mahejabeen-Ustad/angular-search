@@ -1,0 +1,15 @@
+
+
+.example-card{
+    background-color: antiquewhite;
+    width: 400px;
+    margin: 5px 25px;
+    height: 290px;
+    width: 390px;
+    word-wrap: break-word;
+    float: left;
+}
+
+.title{
+    word-wrap: break-word;
+}

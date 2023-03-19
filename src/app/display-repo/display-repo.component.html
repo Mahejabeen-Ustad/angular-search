@@ -1,0 +1,47 @@
+
+<!--<button (onclick)="gridView"><a routerLink="view/gridView">GridView</a></button>-->
+
+
+
+<div class="card-Container">
+    <div class="row">
+        <div class="">
+            <mat-card class="example-card" *ngFor="let reposite of gitList" >
+                <!--card header-->
+                <mat-card-header>
+                    <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>{{reposite.name_with_namespace}}</mat-card-title>
+                </mat-card-header>
+                <mat-divider></mat-divider>
+                
+                <!--card content-->
+                <mat-card-content>
+                    <p>Description:
+                        {{reposite.description}}
+                    </p>
+                </mat-card-content>
+                <br/>
+
+                <mat-divider></mat-divider>
+             
+
+                <mat-card-content>
+                   <mat-icon>stars</mat-icon>{{reposite.star_count}}
+                   &nbsp;&nbsp;&nbsp;&nbsp;
+                   <mat-icon>call_split</mat-icon>{{reposite.forks_count}}
+                   &nbsp;&nbsp;&nbsp;&nbsp;
+                   <mat-icon>question_answer</mat-icon>{{reposite.open_issues_count}}
+                   &nbsp;&nbsp;&nbsp;&nbsp;
+                </mat-card-content>
+
+                <mat-divider></mat-divider>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <mat-card-content>
+                    <button mat-button class="btn btn-secondary" (click)="add(reposite.name_with_namespace, reposite.description, reposite.star_count, reposite.forks_count, reposite.open_issues_count)"> 
+                                Add to Favourite </button>
+                </mat-card-content>
+            </mat-card>
+        </div>  
+    </div>
+</div>       
